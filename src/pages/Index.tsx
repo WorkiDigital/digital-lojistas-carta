@@ -33,7 +33,7 @@ const Index = () => {
               <span className="block text-brand-yellow">Empresário(a)</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 font-light max-w-3xl mx-auto leading-relaxed">
-              Sobre o que está realmente impedindo sua loja de móveis de vender no digital
+              Sobre o que está realmente impedindo sua loja de vender no digital
             </p>
           </div>
           
@@ -46,7 +46,51 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Authority Section */}
+      {/* Opening Message */}
+      <section className="py-20 px-4">
+        <div className="max-w-4xl mx-auto">
+          <Card className="bg-gray-900 border-gray-800 animate-fade-in">
+            <CardContent className="p-8 md:p-12 space-y-6">
+              <div className="text-lg md:text-xl text-gray-300 leading-relaxed space-y-4">
+                <p>
+                  <strong className="text-brand-white">Oi empresário(a)</strong>
+                </p>
+                <p>
+                  Nos últimos 4 anos, ajudei como você a transformar seus negócios no digital. E sabe o que descobri?
+                </p>
+                <div className="bg-brand-yellow/10 border border-brand-yellow/30 p-6 rounded-lg">
+                  <p className="text-brand-yellow font-bold text-xl text-center">
+                    "90% dos lojistas que não vendem no digital cometem exatamente os mesmos 3 erros... e quando corrigem, as vendas disparam em menos de 30 dias."
+                  </p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      {/* Problem Statement */}
+      <section className="py-20 px-4">
+        <div className="max-w-4xl mx-auto">
+          <Card className="bg-gray-900 border-gray-800 animate-fade-in">
+            <CardContent className="p-8 md:p-12 space-y-6">
+              <div className="text-lg md:text-xl text-gray-300 leading-relaxed space-y-4">
+                <p>
+                  <strong className="text-brand-white">Empresário(a), você tem um negócio sólido.</strong> Seus móveis são bons, seu atendimento é bom, seus clientes recomendam... <strong className="text-red-400">MAS você está cometendo erros bobos que estão custando milhares de reais por mês.</strong>
+                </p>
+                <p>
+                  Enquanto você lê isso, seu concorrente (que talvez tenha produto pior que o seu) está vendendo muitos todos os dias, direto pelo Instagram e WhatsApp.
+                </p>
+                <p className="text-brand-yellow font-semibold">
+                  Ele não é mais inteligente que você. Ele só conhece o método certo.
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      {/* Results Section */}
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <Card className="bg-gray-900 border-gray-800 animate-fade-in">
@@ -54,11 +98,8 @@ const Index = () => {
               <div className="space-y-8">
                 <div className="text-center space-y-4">
                   <h2 className="text-3xl md:text-4xl font-bold text-brand-white">
-                    4 Anos Transformando Lojistas
+                    Olha só alguns resultados dos últimos 30 dias:
                   </h2>
-                  <p className="text-xl text-brand-yellow font-semibold">
-                    90% dos lojistas que não vendem no digital cometem os mesmos 3 erros...
-                  </p>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-8 mt-12">
@@ -66,14 +107,13 @@ const Index = () => {
                     <div className="flex items-center gap-4 mb-4">
                       <TrendingUp className="w-8 h-8 text-brand-yellow" />
                       <div>
-                        <h3 className="text-xl font-bold text-brand-white">Paulo - Móveis Rústicos</h3>
-                        <p className="text-gray-400">Santos, SP</p>
+                        <h3 className="text-xl font-bold text-brand-white">✅ Paulo</h3>
+                        <p className="text-gray-400">Loja de Móveis</p>
                       </div>
                     </div>
                     <div className="space-y-2">
-                      <p className="text-gray-300">Antes: <span className="line-through">R$ 100k/mês</span></p>
-                      <p className="text-brand-yellow font-bold text-lg">Depois: R$ 175k/mês</p>
-                      <p className="text-sm text-gray-400 italic">"Agora o Instagram trabalha pra mim 24h"</p>
+                      <p className="text-gray-300">Saiu de: <span className="line-through">R$ 100k/mês</span></p>
+                      <p className="text-brand-yellow font-bold text-lg">Para: R$ 175k/mês</p>
                     </div>
                   </div>
 
@@ -81,14 +121,13 @@ const Index = () => {
                     <div className="flex items-center gap-4 mb-4">
                       <Users className="w-8 h-8 text-brand-yellow" />
                       <div>
-                        <h3 className="text-xl font-bold text-brand-white">Telma - Design de Interiores</h3>
-                        <p className="text-gray-400">Ribeirão Preto, SP</p>
+                        <h3 className="text-xl font-bold text-brand-white">✅ Telma</h3>
+                        <p className="text-gray-400">Loja de Móveis</p>
                       </div>
                     </div>
                     <div className="space-y-2">
-                      <p className="text-gray-300">Antes: <span className="line-through">R$ 80k/mês</span></p>
-                      <p className="text-brand-yellow font-bold text-lg">Depois: R$ 150k/mês</p>
-                      <p className="text-sm text-gray-400 italic">"Triplicou minha lista de espera"</p>
+                      <p className="text-gray-300">Saiu de: <span className="line-through">R$ 80k/mês</span></p>
+                      <p className="text-brand-yellow font-bold text-lg">Para: R$ 150k/mês</p>
                     </div>
                   </div>
                 </div>
@@ -98,29 +137,19 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Problem Diagnosis */}
+      {/* Truth Section */}
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <Card className="bg-gray-900 border-gray-800 animate-fade-in">
-            <CardContent className="p-8 md:p-12 text-center space-y-8">
+          <Card className="bg-red-900/20 border-red-500/30 animate-fade-in">
+            <CardContent className="p-8 md:p-12 text-center space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-brand-white">
-                A Verdade Que Ninguém Te Conta
+                Aqui está a verdade que ninguém te conta:
               </h2>
               
-              <div className="space-y-6 text-lg md:text-xl text-gray-300 leading-relaxed">
+              <div className="text-lg md:text-xl text-gray-300 leading-relaxed space-y-4">
                 <p>
-                  <strong className="text-brand-white">Você tem um bom produto, bom atendimento</strong>, mas está perdendo dinheiro com erros bobos.
+                  <strong className="text-red-300">Cada dia que você adia resolver isso, seu concorrente está na frente.</strong> Cada cliente que poderia ter comprado de você está comprando dele. Cada real que você poderia ter faturado está indo para o bolso de outro lojista.
                 </p>
-                
-                <p>
-                  Enquanto isso, seu <span className="text-brand-yellow font-semibold">concorrente vende pelo Instagram e WhatsApp</span> mesmo tendo um produto inferior ao seu.
-                </p>
-                
-                <div className="bg-red-900/20 border border-red-500/30 p-6 rounded-lg">
-                  <p className="text-red-300 font-semibold text-xl">
-                    ⚠️ Cada dia que você adia, seu concorrente avança.
-                  </p>
-                </div>
               </div>
             </CardContent>
           </Card>
@@ -134,37 +163,35 @@ const Index = () => {
             <CardContent className="p-8 md:p-12">
               <div className="text-center space-y-8">
                 <h2 className="text-3xl md:text-4xl font-bold text-brand-white">
-                  Você Tem Duas Escolhas
+                  Empresário(a), você tem duas opções:
                 </h2>
                 
                 <div className="grid md:grid-cols-2 gap-8 mt-12">
-                  {/* Option 1 */}
                   <div className="bg-red-900/20 border border-red-500/30 p-8 rounded-lg">
-                    <h3 className="text-xl font-bold text-red-300 mb-4">❌ Continuar Tentando Sozinho</h3>
-                    <ul className="space-y-3 text-gray-300">
-                      <li>• Postando sem estratégia</li>
-                      <li>• Perdendo clientes para concorrentes</li>
-                      <li>• Gastando tempo sem resultados</li>
-                      <li>• Vendo suas vendas estagnar</li>
-                    </ul>
+                    <h3 className="text-xl font-bold text-red-300 mb-4">Opção 1:</h3>
+                    <p className="text-gray-300">
+                      Continuar tentando sozinho, perdendo tempo e dinheiro, vendo seus concorrentes crescerem enquanto você fica para trás.
+                    </p>
                   </div>
 
-                  {/* Option 2 */}
                   <div className="bg-green-900/20 border border-green-500/30 p-8 rounded-lg">
-                    <h3 className="text-xl font-bold text-green-300 mb-4">✅ Seguir um Método Comprovado</h3>
-                    <ul className="space-y-3 text-gray-300">
-                      <li>• Resultados em menos de 30 dias</li>
-                      <li>• Sistema que funciona 24h</li>
-                      <li>• Clientes chegando pelo Instagram</li>
-                      <li>• Mais vendas, menos esforço</li>
-                    </ul>
+                    <h3 className="text-xl font-bold text-green-300 mb-4">Opção 2:</h3>
+                    <p className="text-gray-300">
+                      Usar o método que já funcionou para centenas de lojistas e começar a vender todos os dias de forma previsível.
+                    </p>
                   </div>
                 </div>
 
                 <div className="bg-brand-yellow/10 border border-brand-yellow/30 p-6 rounded-lg mt-8">
-                  <p className="text-brand-yellow font-semibold text-lg">
-                    ⚡ Só trabalho com lojistas comprometidos, que não querem "jeitinho brasileiro"
-                  </p>
+                  <div className="space-y-4 text-gray-300">
+                    <p className="font-semibold text-brand-white">Se você escolher a opção 2, preciso te avisar uma coisa...</p>
+                    <p>
+                      <strong className="text-brand-yellow">Eu só trabalho com lojistas que estão dispostos a sair da zona de conforto.</strong> Não aceito quem quer resultado sem se comprometer. Não aceito quem acha que vai resolver com "jeitinho brasileiro".
+                    </p>
+                    <p>
+                      Mas se você é sério, se realmente quer transformar sua loja na referência digital da sua cidade, então vamos conversar.
+                    </p>
+                  </div>
                 </div>
               </div>
             </CardContent>
@@ -183,8 +210,7 @@ const Index = () => {
               </h2>
               
               <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-                Uma conversa de 30 minutos pode ser o divisor de águas da sua loja. 
-                Vamos descobrir exatamente o que está travando suas vendas.
+                Clique no botão abaixo e vamos conversar sobre como implementar isso na sua loja <strong className="text-brand-yellow">NOS PRÓXIMOS 30 DIAS.</strong>
               </p>
 
               <div className="space-y-6">
@@ -204,19 +230,45 @@ const Index = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-green-500" />
-                    <span>Sem Compromisso</span>
+                    <span>Diagnóstico Completo</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-green-500" />
-                    <span>Diagnóstico Completo</span>
+                    <span>Sem Compromisso</span>
                   </div>
                 </div>
               </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
 
-              <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 mt-8">
-                <p className="text-gray-300 italic">
-                  <strong className="text-brand-yellow">P.S.:</strong> Mesmo que você não feche comigo, 
-                  vai sair com um plano claro do que precisa fazer para transformar sua loja.
+      {/* Signature Section */}
+      <section className="py-20 px-4">
+        <div className="max-w-4xl mx-auto">
+          <Card className="bg-gray-900 border-gray-800 animate-fade-in">
+            <CardContent className="p-8 md:p-12 text-center space-y-6">
+              <p className="text-xl text-gray-300">Forte abraço,</p>
+              <div className="space-y-2">
+                <h3 className="text-2xl font-bold text-brand-yellow">[Herickson aia]</h3>
+                <p className="text-gray-400">Especialista em Vendas Digitais para Lojistas</p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      {/* P.S. Section */}
+      <section className="py-12 px-4">
+        <div className="max-w-4xl mx-auto">
+          <Card className="bg-brand-black border-brand-yellow animate-fade-in">
+            <CardContent className="p-8 md:p-12 space-y-6">
+              <div className="space-y-4 text-gray-300">
+                <p>
+                  <strong className="text-brand-yellow">P.S.:</strong> Empresário(a), se você está lendo até aqui, é porque realmente quer resolver esse problema. Não deixe para amanhã o que pode resolver hoje. Seus concorrentes não vão te esperar.
+                </p>
+                <p>
+                  <strong className="text-brand-yellow">P.S.2:</strong> Quando você clicar no botão, vou te dar um diagnóstico GRATUITO do seu Instagram e te mostrar exatamente onde estão os problemas. Mesmo que você não trabalhe comigo, já vai sair com um plano claro do que precisa fazer.
                 </p>
               </div>
             </CardContent>
