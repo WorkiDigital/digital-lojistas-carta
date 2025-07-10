@@ -25,8 +25,8 @@ const Index = () => {
       </div>
 
       {/* Hero Section */}
-      <section className="flex items-center justify-center px-4 py-8">
-        <div className="max-w-4xl mx-auto text-center space-y-4 animate-fade-in">
+      <section className="flex items-center justify-center px-4 py-6">
+        <div className="max-w-4xl mx-auto text-center space-y-3 animate-fade-in">
           <h1 className="text-3xl md:text-5xl font-black leading-tight">
             Uma Carta Para Você,
             <span className="block text-brand-yellow">Empresário(a)</span>
@@ -45,20 +45,18 @@ const Index = () => {
       </section>
 
       {/* Main Content Card */}
-      <section className="py-4 px-4">
+      <section className="py-2 px-4">
         <div className="max-w-4xl mx-auto">
           <Card className="bg-gray-900 border-gray-800 animate-fade-in">
-            <CardContent className="p-6 md:p-8 space-y-6">
+            <CardContent className="p-6 md:p-8 space-y-5">
               
               {/* Opening */}
               <div className="text-base md:text-lg text-gray-300 leading-relaxed space-y-3">
                 <p><strong className="text-brand-white">Oi empresário(a)</strong></p>
                 <p>Nos últimos 4 anos, ajudei como você a transformar seus negócios no digital. E sabe o que descobri?</p>
-                <div className="bg-brand-yellow/10 border border-brand-yellow/30 p-4 rounded-lg">
-                  <p className="text-brand-yellow font-bold text-lg text-center">
-                    "90% dos lojistas que não vendem no digital cometem exatamente os mesmos 3 erros... e quando corrigem, as vendas disparam em menos de 30 dias."
-                  </p>
-                </div>
+                <p className="text-brand-yellow font-bold text-lg text-center border border-brand-yellow/30 p-4 rounded-lg">
+                  "90% dos lojistas que não vendem no digital cometem exatamente os mesmos 3 erros... e quando corrigem, as vendas disparam em menos de 30 dias."
+                </p>
               </div>
 
               {/* Problem Statement */}
@@ -81,7 +79,7 @@ const Index = () => {
                 </h3>
                 
                 <div className="grid md:grid-cols-2 gap-4">
-                  <div className="bg-brand-black p-4 rounded-lg border border-brand-yellow">
+                  <div className="p-4 rounded-lg border border-brand-yellow">
                     <div className="flex items-center gap-3 mb-2">
                       <TrendingUp className="w-5 h-5 text-brand-yellow" />
                       <h4 className="text-lg font-bold text-brand-white">✅ Paulo</h4>
@@ -90,7 +88,7 @@ const Index = () => {
                     <p className="text-brand-yellow font-bold">Para: R$ 175k/mês</p>
                   </div>
 
-                  <div className="bg-brand-black p-4 rounded-lg border border-brand-yellow">
+                  <div className="p-4 rounded-lg border border-brand-yellow">
                     <div className="flex items-center gap-3 mb-2">
                       <Users className="w-5 h-5 text-brand-yellow" />
                       <h4 className="text-lg font-bold text-brand-white">✅ Telma</h4>
@@ -102,12 +100,12 @@ const Index = () => {
               </div>
 
               {/* Truth Section */}
-              <div className="bg-red-900/20 border border-red-500/30 p-4 rounded-lg">
+              <div className="border border-red-500/30 p-4 rounded-lg">
                 <h3 className="text-xl md:text-2xl font-bold text-brand-white mb-3 text-center">
                   Aqui está a verdade que ninguém te conta:
                 </h3>
                 <p className="text-base md:text-lg text-gray-300 leading-relaxed text-center">
-                  <strong className="text-red-300">Cada dia que você adia resolver isso, seu concorrente está na frente.</strong> Cada cliente que poderia ter comprado de você está comprando dele. Cada real que você poderia ter faturado está indo para o bolso de outro lojista.
+                  <strong className="text-red-400">Cada dia que você adia resolver isso, seu concorrente está na frente.</strong> Cada cliente que poderia ter comprado de você está comprando dele. Cada real que você poderia ter faturado está indo para o bolso de outro lojista.
                 </p>
               </div>
 
@@ -118,22 +116,22 @@ const Index = () => {
                 </h3>
                 
                 <div className="grid md:grid-cols-2 gap-4">
-                  <div className="bg-red-900/20 border border-red-500/30 p-4 rounded-lg">
-                    <h4 className="text-lg font-bold text-red-300 mb-2">Opção 1:</h4>
+                  <div className="border border-red-500/30 p-4 rounded-lg">
+                    <h4 className="text-lg font-bold text-red-400 mb-2">Opção 1:</h4>
                     <p className="text-gray-300 text-sm">
                       Continuar tentando sozinho, perdendo tempo e dinheiro, vendo seus concorrentes crescerem enquanto você fica para trás.
                     </p>
                   </div>
 
-                  <div className="bg-green-900/20 border border-green-500/30 p-4 rounded-lg">
-                    <h4 className="text-lg font-bold text-green-300 mb-2">Opção 2:</h4>
+                  <div className="border border-green-500/30 p-4 rounded-lg">
+                    <h4 className="text-lg font-bold text-green-400 mb-2">Opção 2:</h4>
                     <p className="text-gray-300 text-sm">
                       Usar o método que já funcionou para centenas de lojistas e começar a vender todos os dias de forma previsível.
                     </p>
                   </div>
                 </div>
 
-                <div className="bg-brand-yellow/10 border border-brand-yellow/30 p-4 rounded-lg">
+                <div className="border border-brand-yellow/30 p-4 rounded-lg">
                   <div className="space-y-3 text-gray-300 text-sm">
                     <p className="font-semibold text-brand-white">Se você escolher a opção 2, preciso te avisar uma coisa...</p>
                     <p>
@@ -152,10 +150,10 @@ const Index = () => {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-8 px-4">
+      <section className="py-4 px-4">
         <div className="max-w-4xl mx-auto">
           <Card className="bg-gradient-to-b from-gray-900 to-brand-black border-brand-yellow animate-fade-in">
-            <CardContent className="p-6 md:p-8 text-center space-y-6">
+            <CardContent className="p-6 md:p-8 text-center space-y-5">
               <h2 className="text-3xl md:text-4xl font-black text-brand-white">
                 Está Pronto Para Sair do
                 <span className="block text-brand-yellow">Amadorismo?</span>
@@ -196,7 +194,7 @@ const Index = () => {
       </section>
 
       {/* Signature and P.S. Section */}
-      <section className="py-6 px-4">
+      <section className="py-4 px-4">
         <div className="max-w-4xl mx-auto">
           <Card className="bg-gray-900 border-gray-800 animate-fade-in">
             <CardContent className="p-6 md:p-8 space-y-4">
@@ -211,10 +209,10 @@ const Index = () => {
               <div className="border-t border-gray-700 pt-4">
                 <div className="space-y-3 text-gray-300 text-sm">
                   <p>
-                    <strong className="text-brand-yellow">P.S.:</strong> Empresário(a), se você está lendo até aqui, é porque realmente quer resolver esse problema. Não deixe para amanhã o que pode resolver hoje. Seus concorrentes não vão te esperar.
+                    <strong className="text-brand-yellow">P.S.:</strong> Empresário(a), se você está lendo até aqui, é porque realmente quer resolver esse problema. Não deixe para amanhã o que pode resolver hoje. <strong className="text-red-400">Seus concorrentes não vão te esperar.</strong>
                   </p>
                   <p>
-                    <strong className="text-brand-yellow">P.S.2:</strong> Quando você clicar no botão, vou te dar um diagnóstico GRATUITO do seu Instagram e te mostrar exatamente onde estão os problemas. Mesmo que você não trabalhe comigo, já vai sair com um plano claro do que precisa fazer.
+                    <strong className="text-brand-yellow">P.S.2:</strong> Quando você clicar no botão, vou te dar um <strong className="text-green-400">diagnóstico GRATUITO</strong> do seu Instagram e te mostrar exatamente onde estão os problemas. Mesmo que você não trabalhe comigo, já vai sair com um plano claro do que precisa fazer.
                   </p>
                 </div>
               </div>
@@ -224,7 +222,7 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-4 px-4 border-t border-gray-800">
+      <footer className="py-3 px-4 border-t border-gray-800">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-gray-500 text-xs">
             © 2024 Carta Para Lojistas Digitais. Transformando móveis em vendas digitais.
