@@ -13,7 +13,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-brand-black text-brand-white font-inter">
       {/* Fixed CTA Button */}
-      <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 animate-scale-in">
+      <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50 animate-scale-in">
         <Button
           onClick={handleScheduleClick}
           className="bg-brand-yellow text-brand-black hover:bg-yellow-500 font-bold py-3 px-6 rounded-full shadow-2xl transition-all duration-300 hover:scale-105 flex items-center gap-2"
@@ -47,10 +47,10 @@ const Index = () => {
       <section className="py-2 px-4">
         <div className="max-w-4xl mx-auto">
           <Card className="bg-gray-900 border-gray-800 animate-fade-in">
-            <CardContent className="p-6 md:p-8 space-y-5">
+            <CardContent className="p-6 md:p-8 space-y-6">
               
               {/* Opening */}
-              <div className="text-base md:text-lg text-gray-300 leading-relaxed space-y-3">
+              <div className="text-base md:text-lg text-gray-300 leading-relaxed space-y-4">
                 <p><strong className="text-brand-white">Oi empresário(a)</strong></p>
                 <p>Nos últimos 4 anos, ajudei como você a transformar seus negócios no digital. E sabe o que descobri?</p>
                 <p className="text-brand-yellow font-bold text-lg text-center border border-brand-yellow/30 p-4 rounded-lg">
@@ -59,7 +59,7 @@ const Index = () => {
               </div>
 
               {/* Problem Statement */}
-              <div className="text-base md:text-lg text-gray-300 leading-relaxed space-y-3">
+              <div className="text-base md:text-lg text-gray-300 leading-relaxed space-y-4">
                 <p>
                   <strong className="text-brand-white">Empresário(a), você tem um negócio sólido.</strong> Seus móveis são bons, seu atendimento é bom, seus clientes recomendam... <strong className="text-red-400">MAS você está cometendo erros bobos que estão custando milhares de reais por mês.</strong>
                 </p>
@@ -78,7 +78,7 @@ const Index = () => {
                 </h3>
                 
                 <div className="grid md:grid-cols-2 gap-4">
-                  <div className="p-4 rounded-lg border border-brand-yellow">
+                  <div className="p-4 rounded-lg border border-brand-yellow/30">
                     <div className="flex items-center gap-3 mb-2">
                       <TrendingUp className="w-5 h-5 text-brand-yellow" />
                       <h4 className="text-lg font-bold text-brand-white">✅ Paulo</h4>
@@ -87,7 +87,7 @@ const Index = () => {
                     <p className="text-brand-yellow font-bold">Para: R$ 175k/mês</p>
                   </div>
 
-                  <div className="p-4 rounded-lg border border-brand-yellow">
+                  <div className="p-4 rounded-lg border border-brand-yellow/30">
                     <div className="flex items-center gap-3 mb-2">
                       <Users className="w-5 h-5 text-brand-yellow" />
                       <h4 className="text-lg font-bold text-brand-white">✅ Telma</h4>
@@ -149,10 +149,10 @@ const Index = () => {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-4 px-4">
+      <section className="py-6 px-4 pb-24">
         <div className="max-w-4xl mx-auto">
           <Card className="bg-gradient-to-b from-gray-900 to-brand-black border-brand-yellow animate-fade-in">
-            <CardContent className="p-6 md:p-8 text-center space-y-5">
+            <CardContent className="p-6 md:p-8 text-center space-y-6">
               <h2 className="text-3xl md:text-4xl font-black text-brand-white">
                 Está Pronto Para Sair do
                 <span className="block text-brand-yellow">Amadorismo?</span>
@@ -162,7 +162,7 @@ const Index = () => {
                 Clique no botão abaixo e agende sua sessão de diagnóstico gratuita para descobrir como implementar isso na sua loja <strong className="text-brand-yellow">NOS PRÓXIMOS 30 DIAS.</strong>
               </p>
 
-              <div className="space-y-4">
+              <div className="space-y-6">
                 <Button
                   onClick={handleScheduleClick}
                   className="bg-brand-yellow text-brand-black hover:bg-yellow-500 font-bold py-4 px-8 rounded-full text-lg shadow-2xl transition-all duration-300 hover:scale-105 flex items-center gap-3 mx-auto"
@@ -193,7 +193,7 @@ const Index = () => {
       </section>
 
       {/* Signature and P.S. Section */}
-      <section className="py-4 px-4">
+      <section className="py-4 px-4 pb-24">
         <div className="max-w-4xl mx-auto">
           <Card className="bg-gray-900 border-gray-800 animate-fade-in">
             <CardContent className="p-6 md:p-8 space-y-4">
@@ -221,7 +221,7 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-3 px-4 border-t border-gray-800">
+      <footer className="py-6 px-4 border-t border-gray-800">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-gray-500 text-xs">
             © 2024 Carta Para Lojistas Digitais. Transformando móveis em vendas digitais.
