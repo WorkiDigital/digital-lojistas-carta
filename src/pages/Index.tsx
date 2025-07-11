@@ -1,14 +1,13 @@
 
-import { MessageCircle, TrendingUp, Users, CheckCircle, ArrowRight } from 'lucide-react';
+import { MessageCircle, TrendingUp, Users, CheckCircle, ArrowRight, Calendar } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
 const Index = () => {
-  const whatsappMessage = "Olá! Vi sua carta sobre vendas digitais para lojistas de móveis. Gostaria de conversar sobre como transformar minha loja em referência digital.";
-  const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(whatsappMessage)}`;
+  const calcomUrl = "https://calcom.workidigital.tech/workidigitaloficial-gmail.com/30min";
 
-  const handleWhatsAppClick = () => {
-    window.open(whatsappUrl, '_blank');
+  const handleScheduleClick = () => {
+    window.open(calcomUrl, '_blank');
   };
 
   return (
@@ -16,11 +15,11 @@ const Index = () => {
       {/* Fixed CTA Button */}
       <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 animate-scale-in">
         <Button
-          onClick={handleWhatsAppClick}
+          onClick={handleScheduleClick}
           className="bg-brand-yellow text-brand-black hover:bg-yellow-500 font-bold py-3 px-6 rounded-full shadow-2xl transition-all duration-300 hover:scale-105 flex items-center gap-2"
         >
-          <MessageCircle className="w-4 h-4" />
-          QUERO CONVERSAR AGORA
+          <Calendar className="w-4 h-4" />
+          AGENDAR DIAGNÓSTICO
         </Button>
       </div>
 
@@ -138,7 +137,7 @@ const Index = () => {
                       <strong className="text-brand-yellow">Eu só trabalho com lojistas que estão dispostos a sair da zona de conforto.</strong> Não aceito quem quer resultado sem se comprometer. Não aceito quem acha que vai resolver com "jeitinho brasileiro".
                     </p>
                     <p>
-                      Mas se você é sério, se realmente quer transformar sua loja na referência digital da sua cidade, então vamos conversar.
+                      Mas se você é sério, se realmente quer transformar sua loja na referência digital da sua cidade, então vamos agendar uma sessão de diagnóstico gratuita.
                     </p>
                   </div>
                 </div>
@@ -160,16 +159,16 @@ const Index = () => {
               </h2>
               
               <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
-                Clique no botão abaixo e vamos conversar sobre como implementar isso na sua loja <strong className="text-brand-yellow">NOS PRÓXIMOS 30 DIAS.</strong>
+                Clique no botão abaixo e agende sua sessão de diagnóstico gratuita para descobrir como implementar isso na sua loja <strong className="text-brand-yellow">NOS PRÓXIMOS 30 DIAS.</strong>
               </p>
 
               <div className="space-y-4">
                 <Button
-                  onClick={handleWhatsAppClick}
+                  onClick={handleScheduleClick}
                   className="bg-brand-yellow text-brand-black hover:bg-yellow-500 font-bold py-4 px-8 rounded-full text-lg shadow-2xl transition-all duration-300 hover:scale-105 flex items-center gap-3 mx-auto"
                 >
-                  <MessageCircle className="w-5 h-5" />
-                  QUERO CONVERSAR AGORA
+                  <Calendar className="w-5 h-5" />
+                  AGENDAR DIAGNÓSTICO GRATUITO
                   <ArrowRight className="w-5 h-5" />
                 </Button>
 
@@ -180,11 +179,11 @@ const Index = () => {
                   </div>
                   <div className="flex items-center gap-1">
                     <CheckCircle className="w-3 h-3 text-green-500" />
-                    <span>Diagnóstico Completo</span>
+                    <span>30 Minutos</span>
                   </div>
                   <div className="flex items-center gap-1">
                     <CheckCircle className="w-3 h-3 text-green-500" />
-                    <span>Sem Compromisso</span>
+                    <span>Diagnóstico Completo</span>
                   </div>
                 </div>
               </div>
@@ -212,7 +211,7 @@ const Index = () => {
                     <strong className="text-brand-yellow">P.S.:</strong> Empresário(a), se você está lendo até aqui, é porque realmente quer resolver esse problema. Não deixe para amanhã o que pode resolver hoje. <strong className="text-red-400">Seus concorrentes não vão te esperar.</strong>
                   </p>
                   <p>
-                    <strong className="text-brand-yellow">P.S.2:</strong> Quando você clicar no botão, vou te dar um <strong className="text-green-400">diagnóstico GRATUITO</strong> do seu Instagram e te mostrar exatamente onde estão os problemas. Mesmo que você não trabalhe comigo, já vai sair com um plano claro do que precisa fazer.
+                    <strong className="text-brand-yellow">P.S.2:</strong> Quando você agendar sua sessão, vou te dar um <strong className="text-green-400">diagnóstico GRATUITO</strong> do seu Instagram e te mostrar exatamente onde estão os problemas. Mesmo que você não trabalhe comigo, já vai sair com um plano claro do que precisa fazer.
                   </p>
                 </div>
               </div>
