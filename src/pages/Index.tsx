@@ -162,14 +162,14 @@ const Index = () => {
                 Clique no botão abaixo e agende sua sessão de diagnóstico gratuita para descobrir como implementar isso na sua loja <strong className="text-brand-yellow">NOS PRÓXIMOS 30 DIAS.</strong>
               </p>
 
-              <div className="space-y-6 pt-4">
+              <div className="space-y-6 pt-4 flex flex-col items-center">
                 <Button
                   onClick={handleScheduleClick}
-                  className="bg-brand-yellow text-brand-black hover:bg-yellow-500 font-bold py-4 px-8 rounded-full text-lg shadow-2xl transition-all duration-300 hover:scale-105 flex items-center gap-3 mx-auto"
+                  className="bg-brand-yellow text-brand-black hover:bg-yellow-500 font-bold py-3 px-6 rounded-full text-base shadow-2xl transition-all duration-300 hover:scale-105 flex items-center gap-2 w-auto"
                 >
-                  <Calendar className="w-5 h-5" />
+                  <Calendar className="w-4 h-4" />
                   AGENDAR DIAGNÓSTICO GRATUITO
-                  <ArrowRight className="w-5 h-5" />
+                  <ArrowRight className="w-4 h-4" />
                 </Button>
 
                 <div className="flex items-center justify-center gap-4 text-xs text-gray-400">
