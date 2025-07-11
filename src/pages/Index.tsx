@@ -149,20 +149,20 @@ const Index = () => {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-6 px-4 pb-24">
+      <section className="py-8 px-4 pb-32">
         <div className="max-w-4xl mx-auto">
           <Card className="bg-gradient-to-b from-gray-900 to-brand-black border-brand-yellow animate-fade-in">
-            <CardContent className="p-6 md:p-8 text-center space-y-6">
-              <h2 className="text-3xl md:text-4xl font-black text-brand-white">
+            <CardContent className="p-8 md:p-12 text-center space-y-8">
+              <h2 className="text-3xl md:text-4xl font-black text-brand-white leading-tight">
                 Está Pronto Para Sair do
-                <span className="block text-brand-yellow">Amadorismo?</span>
+                <span className="block text-brand-yellow mt-2">Amadorismo?</span>
               </h2>
               
               <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
                 Clique no botão abaixo e agende sua sessão de diagnóstico gratuita para descobrir como implementar isso na sua loja <strong className="text-brand-yellow">NOS PRÓXIMOS 30 DIAS.</strong>
               </p>
 
-              <div className="space-y-6">
+              <div className="space-y-6 pt-4">
                 <Button
                   onClick={handleScheduleClick}
                   className="bg-brand-yellow text-brand-black hover:bg-yellow-500 font-bold py-4 px-8 rounded-full text-lg shadow-2xl transition-all duration-300 hover:scale-105 flex items-center gap-3 mx-auto"
@@ -193,7 +193,7 @@ const Index = () => {
       </section>
 
       {/* Signature and P.S. Section */}
-      <section className="py-4 px-4 pb-24">
+      <section className="py-6 px-4 pb-32">
         <div className="max-w-4xl mx-auto">
           <Card className="bg-gray-900 border-gray-800 animate-fade-in">
             <CardContent className="p-6 md:p-8 space-y-4">
@@ -221,7 +221,7 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-6 px-4 border-t border-gray-800">
+      <footer className="py-8 px-4 border-t border-gray-800">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-gray-500 text-xs">
             © 2024 Carta Para Lojistas Digitais. Transformando móveis em vendas digitais.
